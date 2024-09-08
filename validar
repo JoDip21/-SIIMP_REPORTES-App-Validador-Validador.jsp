@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <title>Válidar Documentos | SETAB (S1)</title>
+            <!-- Bootstrap CSS -->    
+
+
+            <link href="ctrlesc.css" rel="stylesheet" type="text/css"/>
+
+            <link href="bootstrap.min.css" rel="stylesheet">
+
+            <link href="../../css/style.css" rel="stylesheet">
+            <link href="../../css/custom.css" rel="stylesheet">
+            <link href="../../css/style-responsive.css" rel="stylesheet" />
+
+            <!-- bootstrap theme 
+            
+            
+            <link href="../../css/elegant-icons-style.css" rel="stylesheet" />
+                        <link href="../../css/font-awesome.min.css" rel="stylesheet" />
+            
+
+            <link href="sb-admin.css" rel="stylesheet">
+            <link href="../../css/bootstrap-theme.css" rel="stylesheet">
+            <link href="../../css/bootstrap.min.css" rel="stylesheet">
+            -->
+
+
+
+            <!--external css-->
+            <!-- font icon -->
+
+
+            <!-- Custom styles -->
+
+            <style>
+                .autorizado{
+                    font-family: tahoma;
+                    font-size:16px;
+                    color:#08884D;
+                    padding-top:10px;
+                    padding-bottom:10px;
+                    padding-left: 10px;
+                    text-align: center;
+                    border-top: 2px solid #7c8182;    
+
+                }
+                .noautorizado{
+                    font-family: tahoma;
+                    font-size:14px;
+                    color:#D6183C;
+                    height: 30px;
+                    padding-top:10px;
+                    padding-bottom:10px;
+                    padding-left: 10px;
+                    text-align: center;
+                }
+                .pendiente{
+                    font-family: tahoma;
+                    font-size:14px;
+                    background:#FFCC00;
+                    color:black;
+                    height: 30px;
+                    padding-top:10px;
+                    padding-bottom:10px;
+                    padding-left: 10px;
+                }
+                .registro{
+                    font-family: tahoma;
+                    font-size:14px;
+                    text-align: center;
+                }
+
+                .sin_foto{
+                    font-family: tahoma;
+                    font-size:14px;
+                    background:#999;
+                    color:white;
+                    height: 30px;
+                    padding-top:10px;
+                    padding-bottom:10px;
+                    padding-left: 10px;
+                }
+                .campo{
+                    font-family: tahoma;
+                    font-size:14px;
+                    color:black;
+                    text-align: right;
+                    padding-right: 10px;
+                }
+                .registro{
+                    font-family: tahoma;
+                    font-size:14px;
+                    color:black;
+                    text-align: left;
+
+                }
+                .titulo{
+                    font-family: tahoma;
+                    font-size:22px;
+                    color:black;
+                    text-align: center;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    border-bottom: 2px solid #20752F;    
+                    background: #96ceaa;
+                    color:black;
+
+                }
+
+                .titulo2{
+                    font-family: tahoma;
+                    font-size:20px;
+                    color:black;
+                    text-align: center;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    border-bottom: 2px solid #ff1010;    
+                    background: #D42525;
+                    color:white;
+
+                }
+
+                .subtitulo{
+                    font-family: tahoma;
+                    font-size:14px;                 
+                    text-align: center;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    border-bottom: 2px solid #C9D4CB;    
+                    color:#275998;
+                }
+
+
+                .foto{
+                    text-align: center;
+                }
+                .foto_img{
+                    padding-top: 20px;
+                    border:1px solid gray;
+                }
+
+
+                table tr th {
+                    color: #000000;
+                    font-family: tahoma;
+
+                }
+
+            </style>
+        </head>    
+        <!--<body background="fondo.png" style="background-repeat:no-repeat"> -->
+        <body style="background-color:#ffffff; color:#000000   " > 
+
+
+
+
+            <div class="container-fluid" >
+                <header class="header dark-bg">
+                    <a href="../../index2.jsp" class="logo" >
+                        <img src="../../img/SEP_B.png"  style="width:45px;height:47px;"/>
+
+                        <div class="row">
+                            <h3>
+                                <div class="col-md-12" style="font-size: 22px;margin-top: -15px;color:black" >
+                                    <span style="color:white">SISTEMA DE CONTROL ESCOLAR </span>
+                                </div>    
+                                <div class="col-md-12" style="font-size:12px">                          
+                                    <span style="color:white;">SECRETARÍA DE EDUCACIÓN DEL ESTADO DE TABASCO</span>
+                                </div>    
+                            </h3>
+                        </div>
+
+
+
+                    </a>
+                </header>
+            </div>
+
+
+
+
+
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+
+        <div class='container-fluid'>
+<div class='col-md-12'>
+<div class='row'>
+<div class='col-md-offset-3 col-md-6 col-md-offset-3' >
+<center><table class='tabla' width='85%' border='0px' >
+<tr><td colspan='3' class='titulo'>Integridad y autoría de documento electrónico</td></tr>
+<tr>
+<td colspan='3' class='subtitulo'> CERTIFICADO DE  EDUCACIÓN MEDIA SUPERIOR </td>
+</tr>
+<tr>
+<td class='campo' style='color:#CB0808;font-size:16px;width:300px;'> <b>FOLIO:</b> </td>
+<td class='registro' style='color:black;font-size:16px;'> <b>CE272400148758 </b></td>
+</tr>
+<tr>
+<td class='campo' style='color:black;font-size:16px;'> NOMBRE: </td>
+<td class='registro' style='color:black;font-size:16px;'><B>PAULINA GUADALUPE CABRERA CRUZ</B></td>
+</tr>
+<tr>
+<td class='campo'> SEXO: </td>
+<td class='registro'>M</td>
+</tr>
+<tr>
+<td class='campo'> FECHA DE NACIMIENTO: </td>
+<td class='registro'> 2006-12-10 </td>
+</tr>
+<tr>
+<td class='campo'> CURP: </td>
+<td class='registro'>CACP061210MTCBRLA2</td>
+</tr>
+<tr>
+<td class='campo'> PERIODO ESCOLAR: </td>
+<td class='registro' style='vertical-aling:middle;'> 2021-2024 </td>
+</tr>
+<tr>
+<td class='campo'> C.C.T.: </td>
+<td class='registro'> 27PCT0017T </td>
+</tr>
+<tr>
+<td></td><td class='registro'> La ESCUELA BENITO JUÁREZ GARCÍA                                              </td>
+</tr>
+<tr>
+<td class='campo' style='color:black;font-size:16px;'><B> PROMEDIO: </B></td>
+<td class='registro'> <b>8.7  (OCHO PUNTO SIETE) </b></td>
+</tr>
+<tr><td colspan='3' class='autorizado'><span class='btn btn-success'> <img src='../../img/Ok.png' width='26px'> CERTIFICADO VÁLIDO </span>
+</tr>
+</table>
+</div>
+<script src="jquery-1.10.2.js"></script>
+        <script src="bootstrap.min.js"></script>
+
+
+
+
+        <script>
+            $(document).ready(function () {
+
+                if ($('#isExiste').val()) {
+                    $('#modalCalificacionPreescolar').modal('toggle');
+                }
+
+            });
+
+
+            //        (function () {
+            //
+            //            setInterval(function () {
+            //                var el = document.getElementById('idDocuemtnoValido');
+            //                if (el.className === 'luz') {
+            //                    el.className = 'btn btn-success luz on';
+            //                } else {
+            //                    el.className = 'luz';
+            //                }
+            //            }, 1000);
+            //
+            //        })();
+        </script>
+
+    </body>
+</html>
